@@ -10,3 +10,6 @@ Company1<-c("Intellicon","No","No",54)
 Company2<-c("Red Hat, Inc.","Yes","No",17.2)
 WalterData<-data.frame(Walter,Company1,company2)
 ```
+.Rproj.user
+
+.Rhistory
