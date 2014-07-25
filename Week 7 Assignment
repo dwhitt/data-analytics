@@ -1,1 +1,21 @@
 Creating a new Respository for Week 7 Assignment
+# Reading a database into a dataframe
+# installing package RSQLite
+install.package("RSQLite")
+# installing library for RSQLite
+library(RSQlite)
+# Connecting RSQlite to database simplecharter.sqlite
+conn<-dbconnect("SQLite",dbname="simplecharter.sqlite")
+# Writing database to dataframe
+dbwritetable(conn,"charter.frame",charter.frame)
+#End
+
+# Writing a dataframe to a database
+#Install Package "MASS"
+install.package("MASS")
+#Install package functions
+library(MASS)
+# Creating SQL table Boston  
+dbBuildTableDefintion(SQLite,Boston.sqlite,Boston)
+#End
+                      
